@@ -1,7 +1,5 @@
 {
 	"name": "tsde",
-	"authors": [],
 	"description": "Time Switch Data Extractor",
-	"copyright": "None",
-	"license": "None"
+	"license": "GPL-3.0-or-later"
 }
