@@ -1,0 +1,549 @@
+{
+  "dictionary": {
+    "address": 2030080,
+    "size": 128
+  },
+
+  "strings": {
+    "years": {
+      "address": 455892,
+      "count": 6,
+      "huffman": true
+    },
+    "world_exits": {
+      "address": 455680,
+      "count": 112,
+      "huffman": true
+    },
+    "item_names": {
+      "address": 789342,
+      "count": 241,
+      "size": 11
+    },
+    "item_descriptions": {
+      "address": 798385,
+      "count": 241,
+      "huffman": true
+    },
+    "item_type": {
+      "address": 4174608,
+      "count": 241,
+      "huffman": true,
+    },
+    "tech_names": {
+      "address": 792015,
+      "count": 116,
+      "size": 11
+    },
+    "tech_descriptions": {
+      "address": 801289,
+      "count": 121,
+      "huffman": true
+    },
+    "enemy_names": {
+      "address": 812288,
+      "count": 251,
+      "size": 11
+    },
+    "battle": {
+      "address": 838603,
+      "count": 226,
+      "huffman": true
+    },
+    "battle_party": {
+      "address": 978705,
+      "count": 14,
+      "huffman": true
+    },
+    "menu": {
+      "address": 4181819,
+      "count": 7,
+      "huffman": true
+    },
+    "chapters": {
+      "address": 4182078,
+      "count": 27,
+      "huffman": true
+    },
+    "ages": {
+      "address": 4182934,
+      "count": 8,
+      "huffman": true
+    },
+    "settings": {
+      "address": 4183038,
+      "count": 50,
+      "huffman": true
+    },
+    "script00": {
+      "address": 1626112,
+      "count": 78,
+      "huffman": true
+    },
+    "script01": {
+      "address": 1629568,
+      "count": 254,
+      "huffman": true
+    },
+    "script02": {
+      "address": 2015232,
+      "count": 187,
+      "huffman": true
+    },
+    "script03": {
+      "address": 2024192,
+      "count": 145,
+      "huffman": true
+    },
+    "script04": {
+      "address": 3579904,
+      "count": 106,
+      "huffman": true
+    },
+    "script05": {
+      "address": 3584560,
+      "count": 144,
+      "huffman": true
+    },
+    "script06": {
+      "address": 3604480,
+      "count": 217,
+      "huffman": true
+    },
+    "script07": {
+      "address": 3604914,
+      "count": 111,
+      "huffman": true
+    },
+    "script08": {
+      "address": 3605136,
+      "count": 128,
+      "huffman": true
+    },
+    "script09": {
+      "address": 3623168,
+      "count": 240,
+      "huffman": true
+    },
+    "script10": {
+      "address": 3623648,
+      "count": 178,
+      "huffman": true
+    },
+    "script11": {
+      "address": 3624004,
+      "count": 179,
+      "huffman": true
+    },
+    "script12": {
+      "address": 3624362,
+      "count": 187,
+      "huffman": true
+    },
+    "script13": {
+      "address": 3624736,
+      "count": 244,
+      "huffman": true
+    },
+    "script14": {
+      "address": 3625224,
+      "count": 175,
+      "huffman": true
+    },
+    "script15": {
+      "address": 3688016,
+      "count": 248,
+      "huffman": true
+    },
+    "script16": {
+      "address": 3688528,
+      "count": 200,
+      "huffman": true
+    },
+    "script17": {
+      "address": 3689040,
+      "count": 166,
+      "huffman": true
+    },
+    "script18": {
+      "address": 3780608,
+      "count": 197,
+      "huffman": true
+    },
+    "script19": {
+      "address": 3781002,
+      "count": 247,
+      "huffman": true
+    },
+    "script20": {
+      "address": 3979776,
+      "count": 203,
+      "huffman": true
+    },
+    "script21": {
+      "address": 3980182,
+      "count": 196,
+      "huffman": true
+    },
+    "script22": {
+      "address": 4146272,
+      "count": 81,
+      "huffman": true
+    },
+    "script23": {
+      "address": 4151392,
+      "count": 85,
+      "huffman": true
+    },
+    "script24": {
+      "address": 4156160,
+      "count": 186,
+      "huffman": true
+    },
+    "script25": {
+      "address": 4162560,
+      "count": 39,
+      "huffman": true
+    },
+
+  },
+
+  "palettes": {
+    "scene": {
+      "address": 3548352,
+      "count": 89,
+      "size": 105
+    },
+    "world": {
+      "pointers": 458400,
+      "pointerType": "absolute",
+      "count": 19,
+      "compressed": true
+    },
+    "weapon": {
+      "address": 1133312,
+      "count": 32,
+      "size": 3
+    },
+    "sprite": {
+      "address": 2359296,
+      "count": 253,
+      "size": 12
+    },
+    "portrait": {
+      "pointers": 4181624,
+      "pointerType": "bank",
+      "count": 7,
+      "size": 16
+    },
+    "portrait_timemachine": {
+      "address": 4181584,
+      "size": 16
+    },
+    "menu": {
+      "address": 4174352,
+      "count": 7,
+      "size": 8
+    },
+    "battlemode": {
+      "address": 4181658,
+      "size": 16
+    },
+    "unknown": {
+      "address": 4168800,
+      "size": 16
+    },
+    "target": {
+      "address": 1137024,
+      "size": 62
+    }
+  },
+
+  "scenes": {
+    "count": 512,
+    "addressScenes": 3538944,
+    "addressExits": 2424832,
+    "addressChests": 3534848,
+    "names": "rom_na_scenes.json"
+  },
+
+  "statMods": {
+    "address": 797143,
+    "count": 23
+  },
+
+  "mods": {
+    "address": 797189,
+    "count": 58
+  },
+
+  "items": {
+    "weapons": {
+      "count": 90,
+      "address": 787042,
+      "addressSecondary": 788132,
+      "addressPalettes": 879852,
+      "addressSound1": 879948,
+      "addressSound2": 880044
+    },
+    "armor": {
+      "count": 58,
+      "address": 787582,
+      "addressSecondary": 788672
+    },
+    "accessory": {
+      "count": 40,
+      "address": 787756,
+      "addressSecondary": 789020
+    },
+    "other": {
+      "count": 53,
+      "address": 787916,
+      "addressSecondary": 789180
+    }
+  },
+
+  "enemies": {
+    "count": 256,
+    "countSpecial": 10,
+    "address": 804608,
+    "addressRewards": 810496,
+    "addressSpecial": 2219520,
+    "addressHideTargetWindow": 2219648,
+    "addressAttacks": 817865,
+    "addressGraphics": 2422272
+  },
+
+  "battleScripts": {
+    "address": 822024,
+    "count": 256
+  },
+
+  "sceneScripts": {
+    "address": 3996144,
+    "count": 513,
+    "stringTableMap": {
+      "18D000": "script00",
+      "18DD80": "script01",
+      "1EC000": "script02",
+      "1EE300": "script03",
+      "36A000": "script04",
+      "36B230": "script05",
+      "370000": "script06",
+      "3701B2": "script07",
+      "370290": "script08",
+      "374900": "script09",
+      "374AE0": "script10",
+      "374C44": "script11",
+      "374DAA": "script12",
+      "374F20": "script13",
+      "375108": "script14",
+      "384650": "script15",
+      "384850": "script16",
+      "384A50": "script17",
+      "39B000": "script18",
+      "39B18A": "script19",
+      "3CBA00": "script20",
+      "3CBB96": "script21",
+      "3F4460": "script22",
+      "3F5860": "script23",
+      "3F6B00": "script24",
+      "3F8400": "script25"
+    }
+  },
+
+  "maps": {
+    "address": 3546624,
+    "count": 256
+  },
+
+  "tileSets": {
+    "assemblies": {
+      "l12": {
+        "address": 3547392,
+        "count": 64,
+      },
+      "l3": {
+        "address": 3547584,
+        "count": 32,
+      }
+    },
+    "addressSets": 3546112
+  },
+
+  "graphics": {
+    "sprites_characters": {
+      "address": 2367488,
+      "count": 7,
+      "bitplanes": 4,
+      "pointers": "absolute",
+      "sizes": [
+        31680,
+        31808,
+        30528,
+        32448,
+        27456,
+        35840,
+        29376
+      ]
+    },
+    "sprites_world": {
+      "address": 458224,
+      "count": 14,
+      "bitplanes": 4,
+      "compressed": true,
+      "pointers": "absolute"
+    },
+    "tiles_world": {
+      "address": 458272,
+      "count": 37,
+      "bitplanes": 4,
+      "compressed": true,
+      "pointers": "absolute"
+    },
+    "tiles_scene_l12": {
+      "address": 3547737,
+      "count": 191,
+      "bitplanes": 4,
+      "compressed": true,
+      "pointers": "absolute"
+    },
+    "tiles_scene_l3": {
+      "address": 3547680,
+      "count": 19,
+      "bitplanes": 2,
+      "compressed": true,
+      "pointers": "absolute"
+    },
+    "sprites_status": {
+      "address": 1128704,
+      "size": 2048,
+      "bitplanes": 4
+    },
+    "sprites_npcs": {
+      "address": 2367509,
+      "count": 241,
+      "bitplanes": 4,
+      "compressed": true,
+      "pointers": "absolute"
+    },
+    "portraits": {
+      "address": 4128768,
+      "count": 7,
+      "bitplanes": 4,
+      "size": 1152,
+      "width": 48
+    },
+    "font_main": {
+      "address": 4137056,
+      "bitplanes": 2,
+      "size": 9216
+    },
+    "font_partial": {
+      "address": 4180476,
+      "bitplanes": 2,
+      "size": 416
+    },
+    "font8": {
+      "address": 4164704,
+      "bitplanes": 2,
+      "size": 4096
+    },
+    "ui": {
+      "address": 4168848,
+      "bitplanes": 4,
+      "size": 5504,
+      "width": 64
+    },
+    "menu_elements": {
+      "address": 4183524,
+      "bitplanes": 4,
+      "size": 384,
+      "count": 4,
+      "width": 48
+    },
+    "portraits_small": {
+      "address": 4187484,
+      "bitplanes": 4,
+      "size": 128,
+      "count": 7,
+      "width": 16
+    },
+    "menu_options": {
+      "address": 4185060,
+      "bitplanes": 4,
+      "size": 1248,
+      "width": 64
+    },
+    "tech_boxes": {
+      "address": 4186308,
+      "bitplanes": 4,
+      "size": 96,
+      "count": 3,
+      "width": 24
+    },
+    "menu_select": {
+      "address": 4186596,
+      "bitplanes": 4,
+      "size": 96,
+      "count": 6,
+      "width": 24
+    },
+    "menu_background": {
+      "address": 4187172,
+      "bitplanes": 4,
+      "size": 96,
+      "width": 24
+    },
+    "menu_main": {
+      "address": 4187268,
+      "bitplanes": 4,
+      "size": 216,
+      "width": 24
+    },
+    "menu_fog": {
+      "address": 4188380,
+      "bitplanes": 4,
+      "compressed": true,
+      "width": 64
+    },
+    "portrait_timemachine": {
+      "address": 4189064,
+      "bitplanes": 4,
+      "size": 1152,
+      "width": 48
+    },
+    "menu_battle_mode": {
+      "address": 4190216,
+      "bitplanes": 4,
+      "size": 1152,
+      "width": 96
+    },
+    "menu_atb": {
+      "address": 4191368,
+      "bitplanes": 4,
+      "size": 192,
+      "width": 64
+    }
+  },
+
+  "music": {
+    "names": "rom_na_music.json"
+  },
+
+  "npcs": {
+    "names": "rom_na_npcs.json"
+  },
+
+  "pcs": {
+    "names": "rom_na_pcs.json"
+  },
+
+  "shops": {
+    "names": "rom_na_shops.json"
+  },
+
+  "sounds": {
+    "names": "rom_na_sounds.json"
+  }
+}

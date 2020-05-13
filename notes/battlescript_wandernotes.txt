@@ -1,0 +1,104 @@
+Wander code values:
+00: doesnt move, faces away from player, only plays "hands up" anim. turns to player when attacked.
+01: walks up to target, 2 anims (walk, hands up)
+02: doesnt move, 2 anims (walk, hands up)
+03: moves to right on top of target, 2 anims (walk, hands up), moves a bit after being attacked
+04: doesnt move, 2 anim states (sing into mic, hands up)
+05: doesnt move, only plays "hands up" anim
+06: walks up to target and back a random number of times, then stays put and plays 2 anims (walk, hands up), after being hit sometimes moves a bit from time to time
+07: walks up to target, 2 anims (walk, hands up), same as 01?
+08: walks up to target, 2 anims (walk, hands up), same as 01?
+09: faces right (even after being hit), doesnt move, 2 anims (walk, hands up)
+0A: circles around in front of (above of?) the target, occasionally stops to play hands up anim. collides with target.
+0B: circles around in front of (above of?) the target, occasionally stops to play hands up anim, collides with target. same as 0A?
+0C: circles around in front of (above of?) the target, occasionally stops to play hands up anim. does not collide with target.
+0D: circles around in front of (above of?) the target, occasionally stops to play hands up anim, collides with target. same as 0A?
+0E: stays some distance in front of target and paces back and forth, occasionally stops to play hands up anim.
+0F: circles around in front of (above of?) the target, occasionally stops to play hands up anim, collides with target. same as 0A?
+10: moves up to the target and away from it continuously, occasionally stops to play hands up anim.
+11: moves away from the target then stays there facing away from the target
+12: walks up to target, 2 anims (walk, hands up), same as 01?
+13: moves to a little right and away from the target then stays there, 2 anims (walk, hands up)
+14: moves to a little left and away from the target then stays there, 2 anims (walk, hands up)
+15: walks up to just right of the target then stays there, 2 anims (walk, hands up)
+16: walks up to just left of the target then stays there, 2 anims (walk, hands up)
+17: move away and to the left of the target and stays there, 2 anims (walk, hands up)
+18: move away and to the right of the target and stays there, 2 anims (walk, hands up)
+19: moves towards and away from the target in front of and just to the left of the target, 2 anims (walk, hands up)
+1A: turns away from player, only does hands up anim, turns to player when attacked but continues anim
+
+
+Index, offset, size
+00    99 B8    6
+01    99 BE    7B
+02    9A 39    10D
+03    9B 46    1
+04    9B 47    1
+05    9B 48    44
+06    9B 8C    1
+07    9B 8D    E1
+08    9C 6E    1
+09    9C 6F    44
+0A    9C B3    68
+0B    9D 1B    57
+0C    9D 72    5C
+0D    9D CE    94
+0E    9E 62    1
+0F    9E 63    15
+10    9E 78    E2
+11    9F 5A    78
+12    9F D2    17C
+13    A1 4E    3A
+14    A1 88    83
+15    A2 0B    18B
+16    A3 96    60
+17    A3 F6    1
+18    A3 F7    1A
+19    A4 11    1D
+1A    A4 2E    F
+
+
+CA77B = "Large easy robot at the fair" AI code
+
+
+AI code split
+00 00 00 00
+FE
+00 00 06 00
+00 00 06 00
+00 00 06 00
+06
+06
+FE
+FF
+
+00 00 00 00
+FE
+00 00 06 00
+FE
+00 00 00 00
+FE
+0F 03
+FE
+FF
+
+
+AI code
+00 00 00 00 FE 00 00 06 00 00 00 06 00 00 00 06 00 06 06 FE FF 00 00 00 00 FE 00 00 06 00 FE 00 00 00 00 FE 0F 03 FE FF
+
+
+Stubbed AI psuedocode:
+idle:
+  always:
+    wander(0, Target.NEAREST_PLAYER, 0)
+    wander(0, Target.NEAREST_PLAYER, 0)
+    wander(0, Target.NEAREST_PLAYER, 0)
+    nop()
+    nop()
+
+attack:
+  always:
+    wander(0, Target.NEAREST_PLAYER, 0)
+
+  always:
+    message("Too far away etc")

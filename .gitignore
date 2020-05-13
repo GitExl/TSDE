@@ -1,0 +1,17 @@
+.dub
+docs.json
+__dummy.html
+*.o
+*.obj
+__test__*__
+rom_na_*.json
+/out
+/tools
+/info
+*.smc
+*.srm
+*.exe
+/.vs
+/Release
+/Debug
+*.sln

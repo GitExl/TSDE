@@ -1,0 +1,13 @@
+- Split chests and exits out from scenes into their own lists, also makes chest pointers easier\nicer to deal with for scenes.
+- Lists so that at elast names can be stored in them directly: music, sounds, shops, player characters, npcs.
+- Reading tech animation data.
+- Reading shop data.
+- Reading sprite animation data.
+- Reading battle FX graphics and assemblies.
+- Reading overworld assemblies, maps and scripts.
+- Reading sprite assembly data, and maybe build full spritesheets out of them to reaplce the sprite tile graphics outright with.
+- Reading other data yet to be figured out...
+- Extract music and SFX by emulating an SPC700 and dumping the wave data.
+- Reading data from PC\Steam and NDS version.
+- Scene script memory addres => variable name mappings.
+- Document what each type of data does.
